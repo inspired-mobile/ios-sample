@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D75C67242100D1AD00A86439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75C67232100D1AD00A86439 /* AppDelegate.swift */; };
+		D75C67262100D1AD00A86439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75C67252100D1AD00A86439 /* ViewController.swift */; };
+		D75C67292100D1AD00A86439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75C67272100D1AD00A86439 /* Main.storyboard */; };
+		D75C672B2100D1AD00A86439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D75C672A2100D1AD00A86439 /* Assets.xcassets */; };
+		D75C672E2100D1AD00A86439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75C672C2100D1AD00A86439 /* LaunchScreen.storyboard */; };
+		D75C67402100D1F300A86439 /* SKBrowserControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75C67362100D1F200A86439 /* SKBrowserControlsView.swift */; };
+		D75C67412100D1F300A86439 /* SkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75C67372100D1F200A86439 /* SkLogger.swift */; };
+		D75C67422100D1F300A86439 /* SKBrowser2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75C67382100D1F200A86439 /* SKBrowser2.swift */; };
+		D75C67432100D1F300A86439 /* SKMRAIDInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75C67392100D1F200A86439 /* SKMRAIDInterstitial.swift */; };
+		D75C67442100D1F300A86439 /* SKMRAIDOrientationProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75C673A2100D1F200A86439 /* SKMRAIDOrientationProperties.swift */; };
+		D75C67452100D1F300A86439 /* IOSVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75C673B2100D1F200A86439 /* IOSVersion.swift */; };
+		D75C67462100D1F300A86439 /* SKMRAIDResizeProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75C673C2100D1F200A86439 /* SKMRAIDResizeProperties.swift */; };
+		D75C67472100D1F300A86439 /* SKMRAIDServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75C673D2100D1F300A86439 /* SKMRAIDServiceDelegate.swift */; };
+		D75C67482100D1F300A86439 /* SKMRAIDView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75C673E2100D1F300A86439 /* SKMRAIDView2.swift */; };
+		D75C67492100D1F300A86439 /* SKMRAIDModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75C673F2100D1F300A86439 /* SKMRAIDModalViewController.swift */; };
+		D75C67502100D1FB00A86439 /* BackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D75C674B2100D1FB00A86439 /* BackButton.png */; };
+		D75C67512100D1FB00A86439 /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = D75C674C2100D1FB00A86439 /* banner.png */; };
+		D75C67522100D1FB00A86439 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = D75C674D2100D1FB00A86439 /* button.png */; };
+		D75C67532100D1FB00A86439 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = D75C674E2100D1FB00A86439 /* close.png */; };
+		D75C67542100D1FB00A86439 /* ForwardButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D75C674F2100D1FB00A86439 /* ForwardButton.png */; };
+		D75C67562100D24800A86439 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75C67552100D24800A86439 /* InterstitialViewController.swift */; };
+		D75C67592100D37400A86439 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D75C67582100D36C00A86439 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D75C67202100D1AD00A86439 /* Mraid-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mraid-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75C67232100D1AD00A86439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D75C67252100D1AD00A86439 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D75C67282100D1AD00A86439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D75C672A2100D1AD00A86439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D75C672D2100D1AD00A86439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D75C672F2100D1AD00A86439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D75C67362100D1F200A86439 /* SKBrowserControlsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKBrowserControlsView.swift; sourceTree = "<group>"; };
+		D75C67372100D1F200A86439 /* SkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkLogger.swift; sourceTree = "<group>"; };
+		D75C67382100D1F200A86439 /* SKBrowser2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKBrowser2.swift; sourceTree = "<group>"; };
+		D75C67392100D1F200A86439 /* SKMRAIDInterstitial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKMRAIDInterstitial.swift; sourceTree = "<group>"; };
+		D75C673A2100D1F200A86439 /* SKMRAIDOrientationProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKMRAIDOrientationProperties.swift; sourceTree = "<group>"; };
+		D75C673B2100D1F200A86439 /* IOSVersion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOSVersion.swift; sourceTree = "<group>"; };
+		D75C673C2100D1F200A86439 /* SKMRAIDResizeProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKMRAIDResizeProperties.swift; sourceTree = "<group>"; };
+		D75C673D2100D1F300A86439 /* SKMRAIDServiceDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKMRAIDServiceDelegate.swift; sourceTree = "<group>"; };
+		D75C673E2100D1F300A86439 /* SKMRAIDView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKMRAIDView2.swift; sourceTree = "<group>"; };
+		D75C673F2100D1F300A86439 /* SKMRAIDModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKMRAIDModalViewController.swift; sourceTree = "<group>"; };
+		D75C674B2100D1FB00A86439 /* BackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackButton.png; sourceTree = "<group>"; };
+		D75C674C2100D1FB00A86439 /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner.png; sourceTree = "<group>"; };
+		D75C674D2100D1FB00A86439 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		D75C674E2100D1FB00A86439 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		D75C674F2100D1FB00A86439 /* ForwardButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ForwardButton.png; sourceTree = "<group>"; };
+		D75C67552100D24800A86439 /* InterstitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterstitialViewController.swift; sourceTree = "<group>"; };
+		D75C67582100D36C00A86439 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D75C671D2100D1AD00A86439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75C67592100D37400A86439 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D75C67172100D1AD00A86439 = {
+			isa = PBXGroup;
+			children = (
+				D75C67222100D1AD00A86439 /* Mraid-Sample */,
+				D75C67212100D1AD00A86439 /* Products */,
+				D75C67572100D36C00A86439 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D75C67212100D1AD00A86439 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D75C67202100D1AD00A86439 /* Mraid-Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D75C67222100D1AD00A86439 /* Mraid-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				D75C67352100D1BA00A86439 /* Mraid-SDK */,
+				D75C67232100D1AD00A86439 /* AppDelegate.swift */,
+				D75C67252100D1AD00A86439 /* ViewController.swift */,
+				D75C67552100D24800A86439 /* InterstitialViewController.swift */,
+				D75C67272100D1AD00A86439 /* Main.storyboard */,
+				D75C672A2100D1AD00A86439 /* Assets.xcassets */,
+				D75C672C2100D1AD00A86439 /* LaunchScreen.storyboard */,
+				D75C672F2100D1AD00A86439 /* Info.plist */,
+			);
+			path = "Mraid-Sample";
+			sourceTree = "<group>";
+		};
+		D75C67352100D1BA00A86439 /* Mraid-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				D75C674A2100D1FB00A86439 /* Image */,
+				D75C673B2100D1F200A86439 /* IOSVersion.swift */,
+				D75C67382100D1F200A86439 /* SKBrowser2.swift */,
+				D75C67362100D1F200A86439 /* SKBrowserControlsView.swift */,
+				D75C67372100D1F200A86439 /* SkLogger.swift */,
+				D75C67392100D1F200A86439 /* SKMRAIDInterstitial.swift */,
+				D75C673F2100D1F300A86439 /* SKMRAIDModalViewController.swift */,
+				D75C673A2100D1F200A86439 /* SKMRAIDOrientationProperties.swift */,
+				D75C673C2100D1F200A86439 /* SKMRAIDResizeProperties.swift */,
+				D75C673D2100D1F300A86439 /* SKMRAIDServiceDelegate.swift */,
+				D75C673E2100D1F300A86439 /* SKMRAIDView2.swift */,
+			);
+			path = "Mraid-SDK";
+			sourceTree = "<group>";
+		};
+		D75C674A2100D1FB00A86439 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				D75C674B2100D1FB00A86439 /* BackButton.png */,
+				D75C674C2100D1FB00A86439 /* banner.png */,
+				D75C674D2100D1FB00A86439 /* button.png */,
+				D75C674E2100D1FB00A86439 /* close.png */,
+				D75C674F2100D1FB00A86439 /* ForwardButton.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		D75C67572100D36C00A86439 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D75C67582100D36C00A86439 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D75C671F2100D1AD00A86439 /* Mraid-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D75C67322100D1AD00A86439 /* Build configuration list for PBXNativeTarget "Mraid-Sample" */;
+			buildPhases = (
+				D75C671C2100D1AD00A86439 /* Sources */,
+				D75C671D2100D1AD00A86439 /* Frameworks */,
+				D75C671E2100D1AD00A86439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mraid-Sample";
+			productName = "Mraid-Sample";
+			productReference = D75C67202100D1AD00A86439 /* Mraid-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D75C67182100D1AD00A86439 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = InspireMobile;
+				TargetAttributes = {
+					D75C671F2100D1AD00A86439 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D75C671B2100D1AD00A86439 /* Build configuration list for PBXProject "Mraid-Sample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D75C67172100D1AD00A86439;
+			productRefGroup = D75C67212100D1AD00A86439 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D75C671F2100D1AD00A86439 /* Mraid-Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D75C671E2100D1AD00A86439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75C672E2100D1AD00A86439 /* LaunchScreen.storyboard in Resources */,
+				D75C67522100D1FB00A86439 /* button.png in Resources */,
+				D75C672B2100D1AD00A86439 /* Assets.xcassets in Resources */,
+				D75C67502100D1FB00A86439 /* BackButton.png in Resources */,
+				D75C67532100D1FB00A86439 /* close.png in Resources */,
+				D75C67542100D1FB00A86439 /* ForwardButton.png in Resources */,
+				D75C67292100D1AD00A86439 /* Main.storyboard in Resources */,
+				D75C67512100D1FB00A86439 /* banner.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D75C671C2100D1AD00A86439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75C67492100D1F300A86439 /* SKMRAIDModalViewController.swift in Sources */,
+				D75C67422100D1F300A86439 /* SKBrowser2.swift in Sources */,
+				D75C67442100D1F300A86439 /* SKMRAIDOrientationProperties.swift in Sources */,
+				D75C67472100D1F300A86439 /* SKMRAIDServiceDelegate.swift in Sources */,
+				D75C67482100D1F300A86439 /* SKMRAIDView2.swift in Sources */,
+				D75C67432100D1F300A86439 /* SKMRAIDInterstitial.swift in Sources */,
+				D75C67262100D1AD00A86439 /* ViewController.swift in Sources */,
+				D75C67452100D1F300A86439 /* IOSVersion.swift in Sources */,
+				D75C67562100D24800A86439 /* InterstitialViewController.swift in Sources */,
+				D75C67402100D1F300A86439 /* SKBrowserControlsView.swift in Sources */,
+				D75C67462100D1F300A86439 /* SKMRAIDResizeProperties.swift in Sources */,
+				D75C67242100D1AD00A86439 /* AppDelegate.swift in Sources */,
+				D75C67412100D1F300A86439 /* SkLogger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D75C67272100D1AD00A86439 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D75C67282100D1AD00A86439 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D75C672C2100D1AD00A86439 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D75C672D2100D1AD00A86439 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D75C67302100D1AD00A86439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D75C67312100D1AD00A86439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D75C67332100D1AD00A86439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 664HBX4WQ5;
+				INFOPLIST_FILE = "Mraid-Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hexims.it;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D75C67342100D1AD00A86439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 664HBX4WQ5;
+				INFOPLIST_FILE = "Mraid-Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hexims.it;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D75C671B2100D1AD00A86439 /* Build configuration list for PBXProject "Mraid-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75C67302100D1AD00A86439 /* Debug */,
+				D75C67312100D1AD00A86439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D75C67322100D1AD00A86439 /* Build configuration list for PBXNativeTarget "Mraid-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75C67332100D1AD00A86439 /* Debug */,
+				D75C67342100D1AD00A86439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D75C67182100D1AD00A86439 /* Project object */;
+}
