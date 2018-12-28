@@ -1,10 +1,3 @@
 ## README
 
-### Init Project
-Initialize the project code repository
-
-
-### Purpose
-Make a small adjustment to the code
-
-
+This is a sample project to show how to integrate the inspired ad library.
