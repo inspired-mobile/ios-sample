@@ -1906,7 +1906,7 @@ class SKMRAIDView2: UIView,UIWebViewDelegate,SKMRAIDModalViewControllerDelegate,
         
             if(!hasHtmlTag)
             {
-                processedHtml =  String(format: "<html>\n<head>\n</head>\n<body>\n<div align='center'>\n%@</div>\n</body>\n</html>", processedHtml) as NSString
+                processedHtml =  String(format: "<html>\n<head>\n</head>\n<body>\n\n%@\n</body>\n</html>", processedHtml) as NSString
             }
             else if (!hasHeadTag)
             {
