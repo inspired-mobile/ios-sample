@@ -31,11 +31,12 @@ class ViewController: UIViewController,SKMRAIDViewDelegate,SKMRAIDServiceDelegat
     */
     func showBannerData()
     {
-        let myURLString = "https://hexims.it/work/inspire/banneri.html"
+        let myURLString = "http://river.aipy.org/ad/ad-banner.html"
         var htmlData = NSString()
         
         do {
             htmlData = try String (contentsOf: NSURL(string: myURLString)! as URL, encoding: String.Encoding.utf8) as NSString
+             print(htmlData)
         }
         catch
         {
@@ -45,8 +46,8 @@ class ViewController: UIViewController,SKMRAIDViewDelegate,SKMRAIDServiceDelegat
         bannerOpenString = htmlData
         
         let bundleUrl = NSURL(fileURLWithPath: Bundle.main .bundlePath)
-        adView.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: 100)
-        adView = adView .initWithFrame(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: 100), withHtmlData: bannerOpenString, withBaseURL: bundleUrl, supportedFeatures: [Constants.MRAIDSupportsSMS, Constants.MRAIDSupportsStorePicture], delegate: self, serviceDelegate: self, rootViewController: self) as! SKMRAIDView2
+        adView.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: 175)
+        adView = adView .initWithFrame(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: 100), withHtmlData: bannerOpenString, withBaseURL: bundleUrl, supportedFeatures: [Constants.MRAIDSupportsSMS, Constants.MRAIDSupportsStorePicture, Constants.MRAIDSupportsInlineVideo], delegate: self, serviceDelegate: self, rootViewController: self) as! SKMRAIDView2
         
         self.view.addSubview(adView)
     }

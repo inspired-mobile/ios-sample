@@ -31,7 +31,7 @@ class InterstitialViewController: UIViewController,SKMRAIDServiceDelegate,SKMRAI
      */
     func showInterstitial()
     {
-        let myURLString = "http://hexims.it/work/inspire/banneri.html"
+        let myURLString = "http://river.aipy.org/ad/ad-ins.html"
         var htmlData = NSString()
         
         do {
